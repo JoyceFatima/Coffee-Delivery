@@ -13,7 +13,7 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     line-height: 1.5;
-    background: ${(props) => props.theme.background };
+    background: ${(props) => props.theme.background};
     -webkit-font-smoothing: antialiased;
   }
 
@@ -24,6 +24,11 @@ export const GlobalStyle = createGlobalStyle`
 
   input, button, textarea, select {
     font: inherit;
+  }
+
+  ul, li, a {
+    text-decoration: none;
+    list-style: none;
   }
 
   p, h1, h2, h3, h4, h5, h6 {
