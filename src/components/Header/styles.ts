@@ -6,6 +6,7 @@ export const HeaderContainer = styled.header`
   align-items: center;
 
   margin: 2rem auto;
+  margin-bottom: 7rem;
 `
 
 export const NavBar = styled.nav`

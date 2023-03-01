@@ -14,6 +14,7 @@ export const GlobalStyle = createGlobalStyle`
   body {
     line-height: 1.5;
     background: ${(props) => props.theme.background};
+    font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
   }
 

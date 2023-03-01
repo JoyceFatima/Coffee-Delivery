@@ -19,7 +19,7 @@ export function Header() {
           </a>
         </Location>
         <Cart>
-          <a href="">
+          <a href="/shopping">
             <ShoppingCart size={30} weight="fill" />
           </a>
         </Cart>
